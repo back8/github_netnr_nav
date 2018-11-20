@@ -1,6 +1,8 @@
 # netnrnav
 同步实现水平导航、垂直导航、侧滑导航，无限树形
 
+> Demo: https://nav.netnr.com
+
 ### Html
 ```html
     <button type="button" class="MenuToggle show-in-mobile btn btn-primary">
