@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>netnrnav</title>
+    <link crossorigin="anonymous" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" href="https://lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://lib.sinaapp.com/js/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/netnrnav.css" />
+</head>
+
+<body>
+    <button type="button" class="MenuToggle show-in-mobile btn btn-primary">
+        <span class="fa fa-align-justify fa-2x"></span>
+    </button>
+    <div id="netnrnav" class="netnrnav horizontal">
+        <div class="netnrnav-wrapper">
+            <ul>
+                <li><a href="https://www.netnr.com" class="text-primary"><span class="fa fa-fw fa-home"></span> 首页</a></li>
+                <li><a href="https://ss.netnr.com"><span class="fa fa-fw fa-wrench"></span> 服务</a></li>
+                <li><a href="/gist"><span class="fa fa-fw fa-code"></span> Gist</a></li>
+                <li><a href="/run"><span class="fa fa-fw fa-play"></span> Run</a></li>
+                <li>
+                    <a class="text-muted"><span class="fa fa-fw fa-external-link"></span> 子站 <span class="indicator fa fa-sort-desc"></span></a>
+                    <ul>
+                        <li><a target="_blank" href="https://rf.netnr.com">netnrf 响应式框架 &nbsp;<span class="fa fa-external-link"></span></a></li>
+                        <li><a target="_blank" href="https://md.netnr.com">netnrmd 编辑器 &nbsp;<span class="fa fa-external-link"></span></a></li>
+                        <li><a target="_blank" href="https://gs.netnr.com">GitStore 图床 &nbsp;<span class="fa fa-external-link"></span></a></li>
+                        <li><a target="_blank" href="https://json.netnr.com">JSON 编辑器 &nbsp;<span class="fa fa-external-link"></span></a></li>
+                        <li><a target="_blank" href="https://jz.netnr.com">Jz 弹窗插件 &nbsp;<span class="fa fa-external-link"></span></a></li>
+                        <li><a target="_blank" href="https://emoji.netnr.com">Emoji 表情 &nbsp;<span class="fa fa-external-link"></span></a></li>
+                        <li><a target="_blank" href="https://jcute.netnr.com">jCute 脚本 &nbsp;<span class="fa fa-external-link"></span></a></li>
+                        <li><a target="_blank" href="https://ad.netnr.com">API 文档 &nbsp;<span class="fa fa-external-link"></span></a></li>
+                        <li><a target="_blank" href="https://chat.netnr.com">Chat 聊天 &nbsp;<span class="fa fa-external-link"></span></a></li>
+                        <li class="divider"></li>
+                        <li><a target="_blank" href="https://v.netnr.com">VIP视频解析 &nbsp;<span class="fa fa-external-link"></span></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="pull-right">
+                <li><a href="https://www.netnr.com/account/login" class="text-primary">登录 / 注册</a></li>
+                <li>
+                    <a><span class="fa fa-fw fa-user "></span> User <span class="indicator fa fa-sort-desc"></span></a>
+                    <ul>
+                        <li><a><span class="fa fa-fw fa-user text-primary"></span> 个人中心</a></li>
+                        <li><a><span class="fa fa-fw fa-cog text-primary"></span> 个人设置</a></li>
+                        <li class="divider"></li>
+                        <li><a><span class="fa fa-fw fa-pencil text-info"></span> 写</a></li>
+                        <li><a><span class="fa fa-fw fa-file-text-o text-info"></span> 文章管理</a></li>
+                        <li class="divider"></li>
+                        <li><a><span class="fa fa-fw fa-power-off text-danger"></span> 退出</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <h2 class="text-center">
+        <a href="https://github.com/netnr/nav">https://github.com/netnr/nav</a>
+    </h2>
+
+    <script src="https://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+    <script src="src/netnrnav.js"></script>
+
+    <script type="text/javascript">
+        var topbar = $('#netnrnav').netnrnav();
+        $('.MenuToggle').click(topbar.toggle);
+    </script>
+</body>
+
+</html>
