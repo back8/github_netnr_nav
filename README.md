@@ -1,29 +1,7 @@
 # netnrnav
-同步实现水平导航、垂直导航、侧滑导航，无限树形
+> 同步实现水平导航、垂直导航、侧滑导航，无限树形
 
-> Demo: https://nav.netnr.com
-
-### Html
-```html
-    <button type="button" class="MenuToggle show-in-mobile btn btn-primary">
-        <span class="fa fa-align-justify fa-2x"></span>
-    </button>
-    <div id="netnrnav" class="netnrnav horizontal">
-        <div class="netnrnav-wrapper">
-            <ul>
-            ...
-            </ul>
-        </div>
-    </div>
-```
-
-### JavaScript
-```javascript
-<script type="text/javascript">
-    var topbar = $('#netnrnav').netnrnav();
-    $('.MenuToggle').click(topbar.toggle);
-</script>
-```
+### Demo：<https://nav.netnr.com>
 
 ### 说明
 - ` .netnrnav` 默认为垂直导航，为 `.netnrnav` 添加 `.horizontal` 后转为水平导航
