@@ -1,5 +1,5 @@
 /*
- * netnrnav v1.0.0
+ * netnrnav v1.1.0
  * 
  * https://github.com/netnr/nav
  * 
